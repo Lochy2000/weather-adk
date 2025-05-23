@@ -18,12 +18,19 @@ This is a simple AI agent built with [Google's Agent Developer Kit (ADK)](https:
 ##  Folder Structure
 
 my-adk-agent/
+
 ├── .venv/ # Virtual environment (not tracked by Git)
+
 ├── .env # API key (excluded from Git)
+
 ├── .gitignore
+
 ├── agents/
+
 │ ├── init.py # Exposes agent from weather_agent.py
+
 │ └── weather_agent.py # Defines the ADK Agent and tools
+
 └── requirements.txt # (optional) Freeze your Python deps
 
 
